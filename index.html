@@ -3,29 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <title>Materialize</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+	<link rel="stylesheet" href="css/css.css">
 </head>
-<body style="margin:0; ">
-    <!-- seguir http://materializecss.com/grid.html-->
-    <!-- Navbar goes here -->
+<body>
+	<nav class="blue darken-4">
+    	<a href="#!" class="brand-logo sl">FS</a>
+    	<ul id="slide-out" class="side-nav ">
+      		<li><a href="index.html">Tarjetas</a></li>
+      		<li><a href="formulario.html">Formularios</a></li>
+      		<li><a href="secciones.html">Secciones</a></li>
+      		<li class="no-padding">
+        		<ul class="collapsible collapsible-accordion">
+					<li>
+						<a class="collapsible-header">Opciones<i class="material-icons">arrow_drop_down</i></a>
+						<div class="collapsible-body">
+							<ul>
+								<li><a href="#!">Herramientas</a></li>
+								<li><a href="#!">Perfil</a></li>
+								<li><a href="#!">Salir</a></li>
+							</ul>
+						</div>
+					</li>
+         		</ul>
+          	</li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Tarjetas</a></li>
+          <li><a href="formulario.html">Formularios</a></li>
+          <li><a href="secciones.html">Secciones</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Opciones<i class="material-icons right">arrow_drop_down</i></a></li>
+          <ul id='dropdown1' class='dropdown-content'>
+             <li><a href="#!">Herramientas</a></li>
+             <li><a href="#!">Perfil</a></li>
+             <li><a href="#!">Salir</a></li>
+          </ul>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i> </a>
+      </nav>
 
-    <!-- Page Layout here -->
-    <div class="row" style="margin:0;">
-
-      <div class="col s3" style="background-color: #003366; height: 100vh">
-        <!-- Grey navigation panel -->
-        
+      <div class="row">
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/gp.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Google Pixel<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">Google Pixel<i class="material-icons right">close</i></span>
+                <p>El Google Pixel tiene una cámara fantástica, especialmente con poca luz. Ha sido elegantemente diseñado. El asistente digital Google Assistant responde a tus comandos de voz de una de las maneras más naturales y humanas.</p>
+              </div>
+            </div>
+        </div>    
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/s8.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Samsung s8<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">Samsung s8<i class="material-icons right">close</i></span>
+                <p>El diseño revolucionario del Galaxy S8 y S8+ comienza desde el interior. Reconsideramos cada parte del diseño del teléfono para revolucionar los límites de la pantalla del smartphone. Así todo lo que se ve es puro contenido en una pantalla más grande y envolvente, que se puede sostener en una mano fácilmente</p>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/i7.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">iPhone 7<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">iPhone 7<i class="material-icons right">close</i></span>
+                <p>El iPhone 7 lleva la esencia del iPhone a su máxima expresión. Tiene nuevos y avanzados sistemas de cámara. El mejor rendimiento y la mayor duración de batería en un iPhone. Parlantes estéreo con un sonido envolvente. Una pantalla más brillante y con más colores. Una carcasa resistente a las salpicaduras y al agua.1 Y una potencia enorme en un diseño increíble. Este es el iPhone 7.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/HTC10.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">HTC 10<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">HTC 10<i class="material-icons right">close</i></span>
+                <p>Es más de lo que buscas en un teléfono de alta gama. Rendimiento sin paralelos Sonido espectacular Hi-Res de 24-bits Por primera vez a nivel mundial*, HTC 10 incluye un OIS (Optical Image Stabilization) en las dos cámaras, la frontal y la trasera. Y una de las puntuaciones DxOMark más altas jamás obtenidas por un smartphone. Todo en un cuerpo completo de metal perfecto.</p>
+              </div>
+            </div>
+        </div>  
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/lumia.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Lumia 950 XL<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">Lumia 950 XL<i class="material-icons right">close</i></span>
+                <p>Impresiónate con su pantalla Quad HD de 5.7” y su potente procesador de ocho núcleos, éste es el Lumia que has estado esperando. Rompe los límites de lo posible con el smartphone que funciona como tu PC.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l4">
+            <div class="card hoverable">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/xiaomi.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Xiaomi Mi 5<i class="material-icons right">more_vert</i></span>
+                <p><a href="#"> <i class="material-icons">message</i> </a> </p>
+              </div>
+              <div class="card-reveal ta">
+                <span class="card-title grey-text text-darken-4">Xiaomi Mi 5<i class="material-icons right">close</i></span>
+                <p>Xiaomi continua rompiendo records por su tecnología y soluciones innovadoras.  El nuevo smartphone Mi 5 demuestra que este hecho es seguro.  Tiene un CPU 100% más rápido, un 87%  más rapidez en memoria flash, tecnología de redes 4G + generación mejorada, una cámara más estable.  Finalmente el diseño es incluso más elegante y atractico.  Xiaomi Mi 5 es la increible conjunción entre belleza y tecnología.</p>
+              </div>
+            </div>
+        </div>
       </div>
-
-      <div class="col s9" style="background-color: #ccc; height: 100vh">
-        <!-- Teal page content  -->
-        
-      </div>
-
-     </div>
-    
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script>
+      $(function(){
+        $('.button-collapse').sideNav({
+            menuWidth: 300, 
+            edge: 'left', 
+            closeOnClick: true, 
+            draggable: true 
+          }
+        );
+      });
+    </script>
 </body>
 </html>
