@@ -11,7 +11,7 @@
     <nav class="blue darken-4">
         <a href="#!" class="brand-logo sl">FS</a>
         <ul id="slide-out" class="side-nav ">
-          <li><a href="index.html">Tarjetas</a></li>
+          <li><a href="index.html"> Tarjetas</a></li>
           <li><a href="formulario.html">Formularios</a></li>
           <li><a href="secciones.html">Secciones</a></li>
           <li class="no-padding">
@@ -30,7 +30,7 @@
           </li>
         </ul>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Tarjetas</a></li>
+          <li><a href="index.html"> Tarjetas</a></li>
           <li><a href="formulario.html">Formularios</a></li>
           <li><a href="secciones.html">Secciones</a></li>
           <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Opciones<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -44,7 +44,44 @@
     </nav>
   
     <div class="row">
+		<form class="col s12">
+			<div class="row">
+				<div class="input-field col s6 ">
+					<i class="material-icons prefix ">favorite</i>
+					<input id="icon_prefix" type="text" class="validate ">
+					<label for="icon_prefix">Marca</label>
+				</div>
+				<div class="input-field col s6">
+					<i class="material-icons prefix">view_module</i>
+					<input id="icon_telephone" type="text" class="validate">
+					<label for="icon_telephone">Modelo</label>
+				</div>
+				<div class="input-field col s6">
+					<i class="material-icons prefix">credit_card</i>
+					<input id="icon_telephone" type="number" class="validate">
+					<label for="icon_telephone">Costo</label>
+				</div>
+				<div class="input-field col s6">
+					<i class="material-icons prefix">date_range</i>
+					<input id="icon_telephone" type="text" class="validate">
+					<label for="icon_telephone">Fecha de lanzamiento</label>
+				</div>
+				<div class="input-field col s12">
+					<i class="material-icons prefix">mode_edit</i>
+					<textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+					<label for="icon_prefix2">Caracteristicas</label>
+				</div>
+				
+				<button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Guardar
+    				<i class="material-icons right">save</i>
+  				</button>
 
+				<button class="btn waves-effect waves-light blue darken-3" type="submit" name="action">Cancelar
+    				<i class="material-icons right">delete</i>
+  				</button>	
+
+			</div>
+		</form>
     </div>
 
     <script type="text/javascript" src="js/jquery.js"></script>
